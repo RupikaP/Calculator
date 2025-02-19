@@ -1,0 +1,84 @@
+
+    body{
+        margin: 0;
+        display: flex;
+        align-items: center;/*for vertical alignment*/
+        justify-content: center;/*for horizontal alignment*/
+        height: 100vh;
+        background-color:#FFFFFF ;
+    }
+    #Calculator{
+    font-family: Arial, sans-serif;
+    background-color:#37474F;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    }
+
+/* display is for displaying input */
+#display{
+    width:100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    color: white;
+    border: none;
+    background-color: #2E2E2E;
+}
+/*button styling*/
+    button{
+        width: 90px;
+        height:90px;
+        margin: 5px;
+        border-radius: 30px;
+        border: none;
+        color:white;
+        font-size: 2rem;
+        font-weight: bold;
+        background-color:#4CAF50;
+    }
+    
+  /*arrangement of key(buttons) in calculator*/
+#keys{
+   display: grid;
+   grid-template-columns: repeat(4 , 1fr);
+   gap:10x;
+   padding: 25px;
+/* bg color when we hover the button*/
+}
+button:hover{
+    background-color:#3c8940 ;
+/* bg color when we click the button*/
+}
+button:active{
+    background-color:rgba(1, 1, 6, 0.58);
+}
+.operatorbtn{
+    background:#FF9800;
+}
+.operatorbtn:hover{
+    background-color: #c97a02;
+}
+.operatorbtn:active{
+    background-color: #8b5402;
+}
+.equal {
+    background-color: #FF5722; /* Optional: make the equals button a different color */
+}
+.equal:hover {
+    background-color: #e64a19; /* Optional: hover effect for equals button */
+}
+.equal:active {
+    background-color: #cf390c; /* Optional: hover effect for equals button */
+}
+
+.square {
+    background-color: #3498db; /* Blue color for the square button */
+  }
+  
+  .square:hover {
+    background-color: #2980b9;
+  }
+  .square:active {
+    background-color: #0669ab;
+  }

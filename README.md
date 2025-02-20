@@ -8,6 +8,6 @@ It supports basic arithmetic operations like Addition , Multiplication and Divis
 - Subtraction
 - Multiplication
 - Division
-- square roots
+- square roots 
 - delete
 - Clear button to reset the input

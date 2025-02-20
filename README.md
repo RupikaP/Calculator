@@ -11,3 +11,5 @@ It supports basic arithmetic operations like Addition , Multiplication and Divis
 - square roots 
 - delete
 - Clear button to reset the input
+ Check-out to view the site:
+https://simplecalculator-webpage.netlify.app/
